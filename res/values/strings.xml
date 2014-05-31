@@ -4,5 +4,10 @@
     <string name="app_name">Where</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="main_save">Save</string>
+    <string name="main_find">List</string>
 
+  	<string name="save_save">Save</string>
+    
+    <string name="list_list">List</string>
 </resources>

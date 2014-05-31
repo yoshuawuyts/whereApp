@@ -16,7 +16,7 @@
 - views
   - A 'main' view with a 'view' and 'save' button
   - A 'save' fragment with a 'name' field.
-  - A 'view' fragment with a list of 'location' adapters.
+  - A 'list' fragment with a list of 'location' adapters.
   - A 'location' adapter which 
 
 - models

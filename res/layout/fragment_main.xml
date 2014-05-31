@@ -8,9 +8,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.yoshuawuyts.whereapp.MainActivity$PlaceholderFragment" >
 
-    <TextView
+    <Button
+        android:id="@+id/findButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="@string/main_find"
+        android:onClick="handleClick" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/findButton"
+        android:layout_below="@+id/findButton"
+        android:layout_marginTop="52dp"
+        android:text="@string/main_save"
+        android:onClick="handleClick" />
 
 </RelativeLayout>
